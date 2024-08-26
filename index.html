@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestão de Lista de Contatos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Gestão de Lista de Contatos</h1>
+<h2>Adicionar Lista de Nomes (um por linha):</h2>
+<div>
+<textarea id="nameInput" placeholder="Digite ou cole nomes aqui..."></textarea>
+<button id="addNamesButton">Adicionar Nomes</button>
+</div>
+<div>
+<input type="text" id="searchInput" placeholder="Pesquisar nome...">
+<button id="clearSearchButton">Limpar Pesquisa</button>
+</div>
+</header>
+<main>
+<div id="nameListContainer">
+<!-- Nomes serão exibidos aqui -->
+</div>
+</main>
+<footer>
+<button id="deleteAllButton">Excluir Todos os Nomes</button>
+<button id="scrollTopButton">Voltar ao Topo</button>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
